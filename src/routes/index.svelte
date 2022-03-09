@@ -95,8 +95,6 @@
 <style>
 	.top-250 {margin-top: 200px}
     .top-100 {top: 100%}
-    .bottom-100 {bottom: 100%}
-	.add-100 {bottom: 100%}
     .max-h-select {
         max-height: 300px;
     }
