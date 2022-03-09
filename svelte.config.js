@@ -1,3 +1,4 @@
+import node from "@sveltejs/adapter-node";
 import adapter from '@sveltejs/adapter-auto';
 import preprocess from 'svelte-preprocess';
 
@@ -17,7 +18,8 @@ const config = {
 		// Override http methods in the Todo forms
 		methodOverride: {
 			allowed: ['PATCH', 'DELETE']
-		}
+		},
+		adapter: node({ env: { port: process.env.PORT } }),
 	}
 };
 
