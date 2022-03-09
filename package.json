@@ -2,7 +2,7 @@
 	"name": "tailwind-svelte",
 	"version": "0.0.1",
 	"scripts": {
-		"start": "npm start",
+		"start": "node build/index.js",
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
