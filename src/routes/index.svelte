@@ -2,7 +2,7 @@
 	export const prerender = true;
 	import { onMount } from "svelte";
 	import { countryList, listItems } from '$lib/stores/store.js';
-	import Cards from '../components/Cards.svelte';
+	import Cards from './cards.svelte';
 	import Icon from '@iconify/svelte';
 </script>
 
